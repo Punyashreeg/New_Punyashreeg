@@ -17,7 +17,6 @@ year-2024
     hobbies: List[Hobby]
 
     def to_json(self):
-        # Convert the profile data into a JSON-friendly dict
         return asdict(self)
 	profile = Profile(
     skills=[
@@ -30,5 +29,6 @@ year-2024
         Hobby(name="Landscape Photography", description="Published in community gallery"),
     ]
 )
-
+import json
+print(json.dumps(profile.to_json(), indent=2))
 
