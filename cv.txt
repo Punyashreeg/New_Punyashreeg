@@ -19,5 +19,16 @@ year-2024
     def to_json(self):
         # Convert the profile data into a JSON-friendly dict
         return asdict(self)
+	profile = Profile(
+    skills=[
+        Skill(name="Python", level="Expert"),
+        Skill(name="Django", level="Intermediate"),
+        Skill(name="SQL", level="Intermediate"),
+    ],
+    hobbies=[
+        Hobby(name="Chess", description="Compete weekly in local club"),
+        Hobby(name="Landscape Photography", description="Published in community gallery"),
+    ]
+)
 
 
