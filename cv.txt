@@ -2,11 +2,14 @@ name-punyashreeg
 department-cse
 year-2024
 
-from dataclasses import dataclass, asdict
-from typing import List
+ from dataclasses import dataclass, asdict
+ from typing import List
 
-@dataclass
-class Skill:
+
+  class Skill:
     name: str
     level: str  # e.g., "Beginner", "Intermediate", "Expert"
+    class Hobby:
+    name: str
+    description: str
 
