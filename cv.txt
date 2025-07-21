@@ -37,4 +37,8 @@ print(json.dumps(profile.to_json(), indent=2))
     {"name": "Django", "level": "Intermediate"},
     {"name": "SQL", "level": "Intermediate"}
   ]
-
+"hobbies": [
+    {"name": "Chess", "description": "Compete weekly in local club"},
+    {"name": "Landscape Photography", "description": "Published in community gallery"}
+  ]
+}
