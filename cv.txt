@@ -12,4 +12,12 @@ year-2024
     class Hobby:
     name: str
     description: str
+    class Profile:
+    skills: List[Skill]
+    hobbies: List[Hobby]
+
+    def to_json(self):
+        # Convert the profile data into a JSON-friendly dict
+        return asdict(self)
+
 
