@@ -31,4 +31,10 @@ year-2024
 )
 import json
 print(json.dumps(profile.to_json(), indent=2))
+{
+  "skills": [
+    {"name": "Python", "level": "Expert"},
+    {"name": "Django", "level": "Intermediate"},
+    {"name": "SQL", "level": "Intermediate"}
+  ]
 
