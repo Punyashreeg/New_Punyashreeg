@@ -42,3 +42,4 @@ print(json.dumps(profile.to_json(), indent=2))
     {"name": "Landscape Photography", "description": "Published in community gallery"}
   ]
 }
+end
